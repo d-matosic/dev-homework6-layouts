@@ -1,0 +1,279 @@
+
+
+main{
+    max-width:1250px;
+    height:510px;    
+    margin:auto;
+ font-family: 'Open Sans',  sans-serif ;
+color:black;
+background-color: lightgrey;
+position:absolute;
+}
+
+
+
+.section__left{
+
+display:table;
+
+}
+
+.section__left--big {
+    height:490px;
+    width:600px;
+    background-image:url("./assets/images/bura.jpg");
+    background-size: cover;
+    background-position:center; 
+    position:relative;
+    color:white;}
+
+.container-small{
+    display:table-cell;
+    width:100%;
+    top:-203px;
+    position:relative;}
+
+.dates {margin-bottom:0px;
+font-style: italic;
+font-size:15px;
+}
+
+.section__left--big  h1 {font-size:22px;
+margin-top:2px;}
+
+.section__left--big p {font-size:15px;
+margin-top:8px;}
+
+
+.section-type{
+    color: white;
+    background-color: darkblue;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 4px 10px;
+    position: absolute;
+margin-left:15px;
+margin-top:20px;}
+
+  .section-text{padding:285px 10px 0px 10px;}  
+
+
+.section__left--small{    
+    background-image:url("./assets/images/burajadran.jpg");
+    background-size: cover;
+background-position:center; 
+
+position:relative;
+width: 200px;
+height: 33%;
+font-size:12px;
+
+}
+.section-text{
+    position:relative;
+    margin-left:10px;
+    padding-bottom:0px;
+
+}
+
+.section-smallertext{
+    position:relative;
+    padding-top:80px;
+padding-bottom:0px;}
+
+.section__left--small .section-type {margin-left:8px;
+margin-top:10px;}
+
+
+
+.public--button{width: 50%;
+
+    padding: 11px 0px 16px 0px;
+
+    background-color: lightgrey;
+    color: rgb(128, 125, 125);
+    border: 0px;
+
+   margin-top:40px;
+   margin-left:0px;
+
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+.forthepublic{width: 25%;
+
+    height: 306px; 
+    position:relative;
+    display:table;
+        left: 785px;
+    margin-left:15px;
+    margin-right:20px;
+    margin-top: -680px;
+    margin-bottom:0px;
+    padding: 25px;
+    background-color: white;
+
+    font-size:14px;}
+
+    .forhtepublic__title{
+        font-size:16px;
+        width:75%;
+        margin-left:64px;
+    }
+
+
+
+    .forthepublic__content{        
+    font-size:16px;
+    
+    }
+
+    .forthepublic__date{font-size:11px;
+    font-style:italic;}    
+
+    .forthepublic__news{font-size: 14px; 
+            border-bottom: 1px solid lightgrey;      
+        
+            padding-bottom:4px;}
+
+
+
+            @media screen and (max-width: 1200px){
+                main {                     
+                    max-width: 1000px;   
+                    height:800px;             
+                }
+
+                .section__left {width:400px;
+                    margin-bottom:-200px;                
+                }
+
+                .section__left--big{
+                    color:white;
+                width:720px;}
+
+                .forthepublic {                    
+                    width:1010px;;
+                    margin-top:0px;
+                    margin-left:0px;  
+                    position:relative;
+                    top:-800px;
+                    left:0px;
+                    padding-left:100px;                           
+                }
+                
+                .forhtepublic__title {width:60%;
+                margin-left:-20px;
+                font-size:18px;
+                padding-bottom:10px;}
+
+                .forthepublic__content{width:85%;}
+                .public--button{width:30%;
+                    padding-bottom:25px;
+                    margin-left:300px;
+                }
+
+              }
+
+
+    
+              @media screen and (max-width: 990px){
+              
+            main{max-width:750px;
+                height:900px;
+         }
+            
+            .section__left{
+                display:table-cell;        
+                width:100%;              
+                
+            }
+
+            .section__left--big{width:720px;}
+            
+            .container-small{
+                height:120px;
+                width:720px;
+            }
+
+
+         .section__left--small{
+        display:table-cell;
+        width:22%;
+        top:200px;
+    }  
+         
+         .section__left--big{
+            color:white;}
+            
+            }
+
+            .forthepublic{max-width:100%;
+            position:relative;
+        top:0px;}
+            .public--button{margin-left:150px;}
+
+        
+
+            @media screen and (max-width: 768px){
+                 
+            main{
+                max-width:100%;
+                 height:1200px;
+            }
+
+            
+            .section__left--small {width: 100%;
+                height:320px;
+                display:table;                
+            
+                background-position:top left ;
+                background-size:165px;
+                background-repeat:no-repeat;
+                background-color:white;                        
+            
+                margin-top:-180px;
+                padding:0px 0px 10px 170px;    
+                }
+                .section__left{
+                width:100%;}
+                
+
+                .container-small{
+                    top:0px;
+                    position:relative;
+                    width:800px;
+                    background-color:white;
+                }
+
+                
+                .section__left--big  {height:50%;
+                color:white;}
+                
+                
+                .public--button{padding-bottom:12px;
+                width:45%;}
+                
+                .forthepublic{width:100%;
+                height:470px;               
+                }
+
+            .forthepublic__news , .forthepublic__date{font-size:16px;}
+            .forthepublic__news{
+            margin-left:-40px;}
+            .forhtepublic__title{margin-top:60px;}
+                }
+
+
+
+                @media screen and (max-width: 540px){
+                  main {max-width:80%;}
+                  .section__left--big{width:100%;}                
+                  .section__left--small{max-width:60%;}                  
+                  .forthepublic{max-width:80%;}
+
+
+                }

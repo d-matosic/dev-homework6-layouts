@@ -1,0 +1,281 @@
+
+
+main{
+    max-width:1200px;
+    height:450px;
+    display:block;
+    margin:auto;
+ font-family: 'Open Sans',  sans-serif ;
+color:black;
+background-color: lightgrey;}
+
+
+
+.section__left{
+float:left;
+width: 50%;
+}
+
+
+
+.section__left--big {
+
+    float: left;
+    width: 50%;
+    height:100%;
+    
+    background-image:url("./assets/images/bura.jpg");
+background-size: cover;
+background-position:center; 
+
+position:relative;
+color:white;}
+
+.container-small{
+width:100%;
+}
+
+.dates {
+    margin-bottom:0px;
+font-style: italic;
+font-size:15px;
+color:white;
+}
+
+.section__left--big  h1 {
+    font-size:22px;
+margin-bottom:0px;
+margin-top:2px;}
+
+.section__left--big p {
+    font-size:15px;
+margin-top:10px;}
+
+
+.section-type{color: white;
+background-color: darkblue;
+
+    border-radius: 7px;
+
+    font-weight: 600;
+
+    font-size: 12px;
+
+    padding: 4px 10px;
+
+    position: absolute;
+margin-left:15px;
+margin-top:20px;}
+
+  .section-text{
+      padding:285px 10px 0px 10px;
+      position: absolute;
+      display: block;
+
+    }  
+
+
+.section__left--small{   
+     background-image:url("./assets/images/burajadran.jpg");
+    background-size: cover;
+    background-position:center;
+
+position:relative;
+display:block;
+width: 32%;
+height: 45%;
+font-size:12px;
+
+}
+
+.section__left--small h3 {
+    margin: 4px;
+    font-size: 14px;
+    color: white;
+    }
+
+
+.section-smallertext{
+    padding-top:80px;
+padding-bottom:0px;
+position: relative;
+display: block;
+}
+
+.section__left--small .section-type {
+    margin-left:8px;
+   margin-top:10px;}
+
+
+
+.public--button{width: 100%;
+    display:block;
+    padding: 11px 0px 16px 0px;
+
+    background-color: lightgrey;
+    color: rgb(128, 125, 125);
+    border: 0px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+
+.forthepublic{float: right;
+ position:relative;   
+       
+    width: 25%;
+    height: 360px; 
+    left:-40px;
+    top:-410px;
+    padding: 20px;
+    background-color: white;
+    font-size:14px;}
+
+    .forhtepublic__title{
+        font-size:18px;
+        width:100%;
+    }
+
+
+    .forthepublic__date{font-size:14px;
+    font-style:italic;}    
+
+    .forthepublic__news{
+        display:block;
+        font-size: 14px; 
+        border-bottom: 1px solid lightgrey;          
+         padding-bottom:4px;}
+
+
+
+            @media screen and (max-width: 1100px){
+                main {                            
+                    max-width: 900px;   
+                    height:500px; 
+                    background-color:white;
+             }
+
+                .section__left {
+                    width:40%;                 
+                 }
+
+                .section__left--small{
+                    width:50%;
+                    height:150px;}
+
+                .section__left--big  {
+                    width:60%;
+                    color:white;  
+                }            
+
+                .forthepublic {
+                    width:76%;
+                    top:0px;
+                    float:left;
+                    margin-top:-50px; }
+                
+                .forhtepublic__title {width:100%;
+                margin-left:60px;}
+
+                .forthepublic__content{
+                    width:85%;
+                    margin-left:80px;
+                }
+                .public--button{
+                    width:32%;
+                    padding-bottom:15px;
+                }
+
+              }
+
+
+
+              
+
+            @media screen and (max-width: 800px){
+                 
+            main{width:65%;
+            height:1000px;}
+
+            
+            .section__left--small{width: 100%;
+                height:170px;                
+                background-position:top left;
+                background-size:165px;
+                background-repeat:no-repeat;
+                background-color:white;   
+                padding:0px 0px -200px 0px;               
+        
+                }
+                .section-smallertext{
+                    bottom:50px;            
+                    left:180px;
+                    position:relative;
+                    float:left;
+                     width:80%;
+    }
+
+                
+                .section__left{
+                width:70%;}
+
+                .section__left--small h3{color:black;}
+                .dates{color:black;}
+                .section-type{
+                    position:absolute;
+                    left:180px;
+                   top:-10px;
+            }
+                .container-small{
+                    margin-top:10px;                    
+                }
+
+                .section__left--big  {height:50%;
+                    width:100%;
+            }
+
+                
+                .public--button{
+                    padding:14px 40px;
+                width:55%;
+                margin-left:100px;}
+                
+                .forthepublic{
+                    width:100%;
+                height:470px;   
+                margin-top:5px;            
+            }
+
+             .section__left--big .section-type {
+                 margin-top:24px;
+            margin-left:-170px;}
+
+            
+            .forthepublic__news , .forthepublic__date{font-size:16px;}
+            
+                }
+
+
+
+
+                @media screen and (max-width: 425px){
+                  main {
+                      width:100%;
+                }
+                  .section__left--big{
+                      width:100%;
+                }
+
+                .section__left--big p {
+                    visibility:hidden;
+                }
+                
+                  .section__left{
+                      width:70%;}
+
+                  .forthepublic{margin-top:0px;}
+                  .public--button{width:70%;
+                                 padding-top:5px 15px;
+                                 margin-left:40px;}
+                }
